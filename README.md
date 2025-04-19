@@ -6,6 +6,7 @@ I have uploaded the file CAR DETAILS FROM CAR DEKHO.csv. If you’d like to buil
 3. Split the data into training and testing sets
 4. Choose and train a regression model
 5. Evaluate the model’s performance
+   
 CLASSIFICATION MODEL: 
 The Support Vector Machine (SVM) is a powerful supervised learning algorithm used for classification tasks. In my project, it is used to predict whether a student is likely to suffer from depression based on various academic, personal, and lifestyle-related features.
 What does the Model do?
@@ -23,10 +24,8 @@ Data was split into 80% training and 20% testing using train_test_split.
 Trained a default SVC() model from sklearn.svm on the training data.
 8. Prediction and Evaluation:
 The model was evaluated on the test set using:
-
-Accuracy Score
-
-Classification Report (Precision, Recall, F1-score)
+9. Accuracy Score
+10. Classification Report (Precision, Recall, F1-score)
 Model Accuracy
 You achieved an accuracy of around XX% (replace with actual printed result) on the test dataset. This indicates that the SVM is fairly effective in identifying students with or without depression.
 
